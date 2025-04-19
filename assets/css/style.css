@@ -1,0 +1,159 @@
+#header-picture {
+  background-image: url("/assets/images/herder-picture.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+}
+
+p {
+  font-size: 16px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar {
+  z-index: 9;
+  padding: 0 5%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.Titulo {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.video-legenda {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fd6f00;
+  padding: 20px;
+}
+
+.sider-container {
+  width: 50%;
+  font-size: 16px;
+}
+
+.t-card {
+  font-size: 16px;
+  color: #fd6f00;
+}
+
+/* Container para os cards */
+.card-container {
+  display: flex;
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  gap: 20px; /* Espaçamento entre os cards */
+  padding: 20px;
+  background-color: #1c1c1c; /* Cor de fundo da seção */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destaque */
+  width: 50%;
+}
+
+/* Estilização base para os cards */
+.card,
+.card-levar {
+  width: 50%; /* Define uma largura fixa ou ajustável */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+  padding: 15px; /* Espaçamento interno */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center;
+  background-color: #2a2a2a; /* Cor de fundo */
+}
+
+.card-body {
+  width: 50%;
+}
+
+.card-body p {
+  margin-top: 10px; /* Espaçamento entre o título e o parágrafo */
+  font-size: 14px; /* Ajusta o tamanho da fonte */
+  padding: 20px;
+  text-align: center; /* Centraliza o texto */
+}
+
+img {
+  display: block; /* Garante que a imagem seja exibida corretamente */
+  margin: 0 auto 15px auto; /* Centraliza a imagem dentro do card */
+}
+
+/* Estilização da imagem */
+.card-img-top {
+  display: block;
+  margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+  border-radius: 8px; /* Borda arredondada */
+}
+
+/* Estilização do texto e botões */
+.p-card {
+  font-size: 14px;
+  margin: 15px 0;
+  text-align: center; /* Centraliza o texto */
+}
+
+.btn {
+  background-color: #444;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fd6f00;
+  text-decoration: none;
+  text-align: center;
+  display: block; /* Faz o botão ocupar toda a largura disponível */
+  width: fit-content; /* Ajusta a largura ao conteúdo */
+  margin: 0 auto; /* Centraliza o botão horizontalmente */
+}
+
+.btn:hover {
+  background-color: #666; /* Cor mais clara ao passar o mouse */
+}
+
+#lateral{
+  display: flex;
+  background-color: #2a2a2a; /* Cor de fundo */
+}
+
+#lateral .card,
+#lateral .card-levar {
+  text-align: center;
+  color: #fff;
+
+}
+
+.card-levar a{
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #fd6f00;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+footer i {
+  font-size: 2rem;
+  margin: 20px 20px;
+  color: #fff;
+}
